@@ -27,14 +27,12 @@
 ```sh
   curl --location 'localhost:3000/auth' \
 --header 'Content-Type: application/json' \
---header 'Cookie: _interslice_session=w0icSWtSOSMapxhYBK13eXxGnRQhg%2FOZfD2LUEJqsRzQYyfagczGRr2Pn%2BJBdprvw7NAXMJFKksIOaBA5tElg5mU7DyExGWkKHtsxqAzD744x48ITEtZNSJD96Hhde%2B3Lz7K%2FX84wsBr2px7kk%2FCtIFOdednK3SnXe6ku6WO9BMfCWBLAOukXBXVyEZ%2BxLeGoZ5J3t5lni7JP1uyo4Oo2ByJw7XoqC0pOzw5lKkgGPooZWu0NID7bZ%2FslhJrfVraXBib6gTtRd01j8MPLavkTdmLApwrZ5LYVxu7--J4VNn8BKbTWWGLES--l3UkF3IG4M4336mTvzwDig%3D%3D' \
 --data-raw '{ "email": "sheetal4@example.com", "password": "password123", "password_confirmation": "password123", "usertype": "customer", "firstname": "sheetal4", "lastname": "jadhav", "mobile": "7765676593" }'
 ```
 #### User login
 ```sh
 curl --location 'localhost:3000/auth/sign_in' \
 --header 'Content-Type: application/json' \
---header 'Cookie: _interslice_session=HrSbHl06cepDTXu2wSS%2FtrJl02g6q0uS8Sg9mRvQ24XOG8BqIHXVXrJs%2BQZQsmYuZww45jrVpob5i1J0c8HrA%2BFLhwOv2QLNdWcW1qw%2F%2F6qxzMlMb7ThCW4C%2F6b%2BJeEkblhYgLB%2BhDyyLxOHWl9EQ900Nt0JS4vZpj%2FzX5B93wo4DTHgpwtjP7TkjMm2I9q%2F%2BL%2B8Pq0kJvD1w1qToSNRa%2BVbKmKi%2FefCFoRddQxG4xLlgDSK5bbCPJOMwjEcSvV1uv5ZVL6gogeILQLUm%2BACw4%2FvI7oylBWzu4n%2F--RxC5fUe%2FDSMtQ9Dw--cmDh0US3MJpE1nbbR%2F710A%3D%3D' \
 --data-raw '{ "email": "sheetal4@example.com", "password": "password123" }'
 ```
 
@@ -46,7 +44,6 @@ curl --location 'localhost:3000/auth/sign_in' \
 --header 'uid: uid' \
 --header 'client: client' \
 --header 'Authorization: Bearer YourToken' \
---header 'Cookie: _interslice_session=OcwIN9cZwrQyzansIUp7J4yGuLfzS03gMqmfl1mBSnPMbhKUMc2uUC%2FaFJ9bYKx2rzhDey3iI2KcKSgkc7Ve9yWs%2Bi4GszMmDE5Wl%2F6xdcDEXhLcJTlLsz%2FKKXshzJMFTEd4yMd1Bmg%2B1APy5DUh2a%2F6tsK%2BxLwKqjigcP6UViobVpUJbjL%2BUGJMhX0F%2BCI30AasyklyTdtZA4bAwLfjvA8SnfvTwBYwOb%2FmHuW9BlZDA39IZPS7EFGYjUiciRp2bAclxAwx1FPAfsBzAMd3sja4LpvwbMNsmkRk--xYViynI%2FRRZUhwfY--lK4nY%2F36I6VHqTp780vJaA%3D%3D' \
 --data '{
     "event": {
       "event_name": "Tech Meetup",
@@ -67,7 +64,6 @@ curl --location 'localhost:3000/auth/sign_in' \
 --header 'uid: uid' \
 --header 'client: client' \
 --header 'Authorization: Bearer YourToken' \
---header 'Cookie: _interslice_session=w0icSWtSOSMapxhYBK13eXxGnRQhg%2FOZfD2LUEJqsRzQYyfagczGRr2Pn%2BJBdprvw7NAXMJFKksIOaBA5tElg5mU7DyExGWkKHtsxqAzD744x48ITEtZNSJD96Hhde%2B3Lz7K%2FX84wsBr2px7kk%2FCtIFOdednK3SnXe6ku6WO9BMfCWBLAOukXBXVyEZ%2BxLeGoZ5J3t5lni7JP1uyo4Oo2ByJw7XoqC0pOzw5lKkgGPooZWu0NID7bZ%2FslhJrfVraXBib6gTtRd01j8MPLavkTdmLApwrZ5LYVxu7--J4VNn8BKbTWWGLES--l3UkF3IG4M4336mTvzwDig%3D%3D' \
 --data '{
     "event": {
       "event_name": "Tech Meetup update2",
@@ -88,7 +84,6 @@ curl --location 'localhost:3000/auth/sign_in' \
 --header 'uid: uid' \
 --header 'client: client' \
 --header 'Authorization: Bearer YourToken' \
---header 'Cookie: _interslice_session=8rmqwfpD0j5DqI9A9TT3OvhBHO%2B%2BhZbP8pATNU%2BQH6ISCJU5S655PBWMHVHEoR91Q3TMVFhmTWKWG56i6TGQPpgKrw467Fmc3kVTQe4ACO0MEnA1g00OSMdsdeNmOhRdQTW5628Bxp8wqEY3vUfdCdUUjjXTkl3FHUF2WWu9pEj%2Fyx8tArBb99batMkL7BiYPI4oPFnq3%2BFAoabltAYuJ%2F1hUC3CR8kenhPjOhKJQFpzL%2BuqqjATFpB9ExQ4GAAz0s%2FBpW8OZWBJM7GfNKs%2BffuQyJdWVogzngF0--YMD2g5oH%2Bjwqf4EI--hpAL0cL8PpoV630JoGsnNA%3D%3D' \
 --data ''
 ```
 
@@ -100,7 +95,6 @@ curl --location 'localhost:3000/auth/sign_in' \
 --header 'uid: uid' \
 --header 'client: client' \
 --header 'Authorization: Bearer YourToken' \
---header 'Cookie: _interslice_session=OcwIN9cZwrQyzansIUp7J4yGuLfzS03gMqmfl1mBSnPMbhKUMc2uUC%2FaFJ9bYKx2rzhDey3iI2KcKSgkc7Ve9yWs%2Bi4GszMmDE5Wl%2F6xdcDEXhLcJTlLsz%2FKKXshzJMFTEd4yMd1Bmg%2B1APy5DUh2a%2F6tsK%2BxLwKqjigcP6UViobVpUJbjL%2BUGJMhX0F%2BCI30AasyklyTdtZA4bAwLfjvA8SnfvTwBYwOb%2FmHuW9BlZDA39IZPS7EFGYjUiciRp2bAclxAwx1FPAfsBzAMd3sja4LpvwbMNsmkRk--xYViynI%2FRRZUhwfY--lK4nY%2F36I6VHqTp780vJaA%3D%3D' \
 --data '{
     "booking": {
       "event_ticket_id": 1,
@@ -116,7 +110,6 @@ curl --location 'localhost:3000/auth/sign_in' \
 --header 'uid: uid' \
 --header 'client: client' \
 --header 'Authorization: Bearer YourToken' \
---header 'Cookie: _interslice_session=OcwIN9cZwrQyzansIUp7J4yGuLfzS03gMqmfl1mBSnPMbhKUMc2uUC%2FaFJ9bYKx2rzhDey3iI2KcKSgkc7Ve9yWs%2Bi4GszMmDE5Wl%2F6xdcDEXhLcJTlLsz%2FKKXshzJMFTEd4yMd1Bmg%2B1APy5DUh2a%2F6tsK%2BxLwKqjigcP6UViobVpUJbjL%2BUGJMhX0F%2BCI30AasyklyTdtZA4bAwLfjvA8SnfvTwBYwOb%2FmHuW9BlZDA39IZPS7EFGYjUiciRp2bAclxAwx1FPAfsBzAMd3sja4LpvwbMNsmkRk--xYViynI%2FRRZUhwfY--lK4nY%2F36I6VHqTp780vJaA%3D%3D' \
 --data '{
     "booking": {
       "event_ticket_id": 1,
@@ -132,7 +125,6 @@ curl --location 'localhost:3000/auth/sign_in' \
 --header 'uid: uid' \
 --header 'client: client' \
 --header 'Authorization: Bearer YourToken' \
---header 'Cookie: _interslice_session=OcwIN9cZwrQyzansIUp7J4yGuLfzS03gMqmfl1mBSnPMbhKUMc2uUC%2FaFJ9bYKx2rzhDey3iI2KcKSgkc7Ve9yWs%2Bi4GszMmDE5Wl%2F6xdcDEXhLcJTlLsz%2FKKXshzJMFTEd4yMd1Bmg%2B1APy5DUh2a%2F6tsK%2BxLwKqjigcP6UViobVpUJbjL%2BUGJMhX0F%2BCI30AasyklyTdtZA4bAwLfjvA8SnfvTwBYwOb%2FmHuW9BlZDA39IZPS7EFGYjUiciRp2bAclxAwx1FPAfsBzAMd3sja4LpvwbMNsmkRk--xYViynI%2FRRZUhwfY--lK4nY%2F36I6VHqTp780vJaA%3D%3D' \
 --data ''
 ```
 ## Run the app
